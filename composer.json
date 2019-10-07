@@ -15,9 +15,15 @@
             "email": "bmxamin@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/luanecomp/Chat-API.git"
+        }
+    ],
     "require": {
         "php": ">=5.6",        
-        "whatsapp/chat-api": "^3.2"
+        "whatsapp/chat-api": "dev-master"
     },
     "suggest": {
         "illuminate/support": "For use on Laravel 5."
